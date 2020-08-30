@@ -1,0 +1,8 @@
+server:
+  port: 8082
+
+#如果引用了lombok，则日志必须设置，里面使用了注解：@Slf4j
+logging:
+  level:
+    com:
+      fundaylei: debug
